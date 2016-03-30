@@ -34,5 +34,4 @@ var likeLink = post.getElementsByTagName('li')[0];
 likeLink.className = likeLink.className + " post-liked";
 // Exercise: Find the second post and remove the .post-liked class.
 var nextPost = document.getElementsByClassName('post')[1];
-var likedLink = nextPost.getElementsByTagName('li')[0];
-likedLink.classList.remove('post-liked');
+nextPost.classList.remove('post-liked');
